@@ -1,0 +1,32 @@
+@import '../Color/colors.css';
+
+.logo-img{
+    background-color: var(--color--bottom);
+}
+
+.main__header{
+    display: block;
+    padding-bottom: -50px;
+    height: 100px;
+    margin-top: 0.75%;
+}
+
+.main__banner{
+    background-image: url(../../../public/images/header-pattern.png);
+    display: grid;
+    background-repeat: repeat;
+    height: 80px;
+    background-size: 211px 80px;      
+}
+
+.logo_text{
+    position: relative;
+    line-height: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    top: -85px;
+    height: 85px;
+}
+
+

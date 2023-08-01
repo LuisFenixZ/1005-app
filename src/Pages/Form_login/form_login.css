@@ -1,0 +1,498 @@
+@import '../../components/Color/colors.css';
+
+
+
+/*LOGIN 5000 ate 850 ---------------------------------------------------------------------------------------*/
+
+@media(max-width: 5000px) and (min-width: 850px) {
+
+  .register_small{
+    display: block;
+    display: none;
+
+  }
+
+  .login_small{
+    display: block;
+    display: none;
+  }
+
+  .login{
+    display: block;
+    margin-left: auto;
+    max-width: 100%;
+    margin-right: 4%;
+  }
+
+  .form_login_text{
+    display: flex;
+  }
+  
+  .login_text{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 30px
+  }
+  
+  .login_line_up{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 40px;
+    margin-top: -20%;
+  }
+  
+  .login_line_down{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 0%;
+  }
+  
+  .login__line_text{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 30px;
+  }
+  
+  .forgot_password{
+    display: flex;
+    color: var(--light--blue); 
+    justify-content: left;
+    font-size: 20px;
+  }
+  
+  .form_login_text label{
+    color: var(--white--font);
+    margin-top: -2%;
+  }  
+  
+  .form_login_text form{
+    max-width: 80%;
+    background-color: var(--color--bottom);
+    border-radius: 20px;
+    padding: 36px 64px;
+  }
+  
+  .button-enter{
+    background-color: var(--very--light--blue);
+    color: var(--black);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    height: 10%;
+    width: 40%;
+    font-size: 20px;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+    
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+    
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+    
+  .text{
+    display: block;
+    color: var(--white--font);
+    font-size: 20px;
+  }
+  
+  .password-label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+    width: 295px;
+    height: 33px;
+    }
+  
+  .password-input{
+    background-color: var(--white--font);
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    }
+  
+  .form-control{
+    margin-left: 0%;
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    }
+  
+  .register_text{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 30px;
+    margin-right: 5%;
+    margin-top: 8%;
+    }
+
+    .check {
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    
+    .checkbox[type="checkbox"] {
+      margin-right: 8px;
+    }
+  
+/*REGISTRO ---------------------------------------------------------------------------------------*/
+
+  .register{
+    display: block;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: 0%;
+  }
+  
+  .register_line_up{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 40px;
+    margin-top: -20%;
+  
+  }
+  
+  .password-input-register{
+    background-color: var(--white--font);
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  .register_line_down{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 8%;
+  }
+  
+  .button-enter-register{
+    background-color: var(--very--light--blue);
+    color: var(--black);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    height: 10%;
+    width: 40%;
+    font-size: 18px;
+  }
+  
+/* APARTIR DAQUI O CHEK BOX */
+  
+  .teste{
+    color: aqua;
+    margin-left: -800%;
+    margin-top: 430%;
+  }
+  
+  .teste2{
+    color: red;
+    margin-left: -90%;
+    margin-top: -13%;
+  }
+  
+}
+/*Login 850---------------------------------------------------------------------------------------*/
+@media(max-width: 850px) and (min-width: 0px) {
+
+  .login{
+    display: block;
+    margin-left: auto;
+    max-width: 100%;
+    margin-right: auto;
+  }
+
+  .form_login_text{
+    display: flex;
+  }
+  
+  .login_text{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 30px;
+  }
+  
+  .login_line_up{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 40px;
+    margin-top: -20%;
+  }
+  
+  .login_line_down{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 0%;
+  }
+  
+  .login_line_text{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 30px;
+  }
+  
+  .forgot_password{
+    display: flex;
+    color: var(--light--blue); 
+    justify-content: left;
+    font-size: 20px;
+  }
+  
+  .form_login_text label{
+    color: var(--white--font);
+    margin-top: -2%;
+  }
+  
+  
+  .form_login_text form{
+    max-width: 80%;
+    background-color: var(--color--bottom);
+    border-radius: 20px;
+    padding: 36px 64px;
+  }
+  
+  .button-enter{
+    background-color: var(--very--light--blue);
+    color: var(--black);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    height: 5%;
+    width: 40%;
+    font-size: 20px;
+  }
+
+  .button-register{
+    background-color: var(--very--light--blue);
+    color: var(--black);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    height: 10%;
+    width: 40%;
+    font-size: 20px;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+    
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+    
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+    
+  .text{
+    display: block;
+    color: var(--white--font);
+    font-size: 20px;
+  }
+  
+  .password-label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+    width: 295px;
+    height: 33px;
+  }
+  
+  .password-input{
+    background-color: var(--white--font);
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  .form-control{
+    margin-left: 0%;
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+/*AQUI È O REGISTRO*/
+  .register{
+    display: block;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: 0%;
+    margin-top: 70%;
+    display: none;
+  }
+/*AQUI È O REGISTRO2*/
+
+.register_small{
+  display: block;
+  max-width: 100%;
+  margin-right: auto;
+}
+
+  @media(max-width: 850px) and (min-width: 750px) {
+
+    .form_login_text{
+      display: flex;
+    }
+
+    .register_small{    
+      margin-left: -77%;
+      margin-top: 65%;
+    }
+  }
+
+  @media(max-width: 750px) and (min-width: 650px) {
+
+    .form_login_text{
+      display: flex;
+    }
+
+    .register_small{
+      margin-left: -80%;
+      margin-top: 80%;
+    }
+  }
+
+  @media(max-width: 650px) and (min-width: 550px) {
+    
+    .form_login_text{
+      display: flex;
+    }
+    
+    .register_small{
+      margin-left: -86%;
+      margin-top: 85%;
+    }
+  }
+
+  @media(max-width: 550px) and (min-width: 450px) {
+    
+    .form_login_text{
+      display: flex;
+    }
+    
+    .register_small{
+      margin-left: -94%;
+      margin-top: 100%;
+    }
+  }
+
+  @media(max-width: 450px) and (min-width: 430px) {
+    
+    .form_login_text{
+      display: flex;
+    }
+    
+    .register_small{
+      margin-left: -100%;
+      margin-top: 112%;
+    }
+  }
+
+  @media(max-width: 430px) and (min-width: 0px) {
+    .form_login_text{
+      display: block;
+    }
+  }
+
+  
+
+  .register_text_small{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 30px;
+    margin-right: 5%;
+    margin-top: 8%;
+  }
+
+  .register_line_up_small{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 40px;
+    margin-top: -20%;
+  }
+
+  .password-input-register_small{
+    background-color: var(--white--font);
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  .register_line_down_small{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 8%;
+  }
+
+  .button-enter-register_small{
+    background-color: var(--very--light--blue);
+    color: var(--black);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    height: 10%;
+    width: 40%;
+    font-size: 18px;
+  }
+  /* APARTIR DAQUI O CHEK BOX */
+  .teste{
+    color: aqua;
+    margin-left: -800%;
+    margin-top: 430%;
+  }
+
+  .teste2{
+    color: red;
+    margin-left: -90%;
+    margin-top: -180%;
+  }
+}

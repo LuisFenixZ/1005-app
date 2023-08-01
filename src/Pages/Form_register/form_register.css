@@ -1,0 +1,48 @@
+@import '../../components/color/colors.css';
+
+.form_register_text{
+    display: flex;
+}
+
+.register_texto{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: right;
+    font-size: 50px;
+}
+
+
+.register_texto{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: left;
+    font-size: 50px;
+}
+
+.form_register_text label{
+    color: var(--white--font);
+
+}
+
+
+.form_register_text form{
+    max-width: 80%;
+    background-color: var(--color--bottom);
+    border-radius: 20px;
+    padding: 36px 64px;
+}
+
+.register{
+    justify-content: left;
+    margin: 80px 0;
+    margin-right: 100%;
+    margin-top: 0%;
+}
+
+.login{
+    justify-content: left;
+    margin: 80px 0;
+    margin-left : 20%;
+    margin-right: 15%;
+    margin-top: 0%;
+}

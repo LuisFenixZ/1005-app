@@ -1,0 +1,194 @@
+@import '../../components/color/colors.css';
+
+.form_adress_text{
+    display: flex;
+}
+
+.adress_text{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 30px;
+}
+
+.adress_line_up{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 40px;
+    margin-top: -20%;
+}
+
+.adress_line_down{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 0%;
+}
+
+.adress__line_text{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 30px;
+}
+
+.forgot_password{
+    display: flex;
+    color: var(--light--blue); 
+    justify-content: left;
+    font-size: 20px;
+}
+
+.form_adress_text label{
+    color: var(--white--font);
+    margin-top: -2%;
+}
+
+
+.form_adress_text form{
+    max-width: 80%;
+    background-color: var(--color--bottom);
+    border-radius: 20px;
+    padding: 36px 64px;
+}
+
+.adress{
+    display: block;
+    margin-left: 27.5%;
+    max-width: 100%; 
+    
+}
+
+.button-enter{
+    background-color: var(--very--light--blue);
+    color: var(--black);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    height: 10%;
+    width: 40%;
+    font-size: 20px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  .text{
+    display: block;
+    color: var(--white--font);
+    font-size: 20px;
+  }
+
+  .password-label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+    width: 295px;
+    height: 33px;
+  }
+
+  .password-input{
+    background-color: var(--white--font);
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  .form-control{
+    margin-left: 0%;
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .register_text{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 30px;
+    margin-right: 5%;
+    margin-top: 8%;
+  }
+
+  .register{
+    display: block;
+    max-width: 100%;
+  }
+
+  .register_line_up{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 40px;
+    margin-top: -20%;
+
+  }
+
+  .password-input-register{
+    background-color: var(--white--font);
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+  }
+
+  .register_line_down{
+    display: flex;
+    color: var(--white--font); 
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 8%;
+
+  }
+
+  .button-enter-register{
+    background-color: var(--very--light--blue);
+    color: var(--black);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    height: 10%;
+    width: 40%;
+    font-size: 18px;
+
+  }
+
+  /* APARTIR DAQUI O CHEK BOX */
+
+  .teste{
+    color: aqua;
+    margin-left: -800%;
+    margin-top: 430%;
+
+  }
+
+  .teste2{
+    color: red;
+    margin-left: -90%;
+    margin-top: -13%;
+
+  }

@@ -1,0 +1,58 @@
+@import '../../components/Color/colors.css';
+
+.form_address{
+    color: var(--white--font);
+    display: none;
+}
+
+.address{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/5;
+}
+
+.address_text{
+    grid-area: 1/1/1;
+    justify-self: center;
+}
+
+.name{
+    grid-column: 1/2;
+    grid-row: 2/5;
+}
+
+.city{
+    grid-column: 1/2;
+    grid-row: 3/5;
+}
+
+.namneighborhoode{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.button-enter-address{
+    grid-column: 1/2;
+    grid-row: 5/5;
+}
+
+.complement{
+    grid-column: 2/2;
+    grid-row: 2/5;
+}
+
+.road{
+    grid-column: 2/2;
+    grid-row: 3/5;
+}
+
+.number{
+    grid-column: 2/2;
+    grid-row: 4/5;
+}
+
+.button-voltar-address{
+    grid-column: 2/2;
+    grid-row: 5/5;
+}
+/*AQUI OS CAMPOS DE TEXTO*/

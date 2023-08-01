@@ -1,0 +1,12 @@
+.Menu_Background{
+    border: 2px solid transparent;
+    background: linear-gradient(to right, #000000, #000000),linear-gradient(to right, #f68f1d, #e23e50);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #000000;
+    margin: 0rem 0.4rem 0rem 0.4rem;
+    width:fit-content;
+    
+}
+

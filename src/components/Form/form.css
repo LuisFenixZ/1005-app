@@ -1,0 +1,23 @@
+@import '../Color/colors.css';
+
+.text_form{
+    margin: 24px 0;
+}
+
+.text_form label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+    width: 295px;
+    height: 33px;
+}
+
+.text_form input{
+    background-color:var(--white--font);
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}

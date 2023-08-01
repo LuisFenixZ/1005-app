@@ -1,0 +1,57 @@
+.price_color_soft_drinks{
+    color: #FFFFFF;
+}
+
+.Menu_block_soda{
+    color: #f7901e;
+}
+
+.title_menu_soda{
+    color:#e23e50
+}
+
+.title_menu_juice{
+    color: #dda065;
+}
+
+.additional_drinks{
+    color:#16a9d6;
+}
+
+.wine_menu{
+    color:#00934d;
+}
+
+.title_menu_chopp{
+    color:#00934d;
+}
+
+.subtitle_menu_choop{
+    color:#00843e;
+}
+
+
+.choop_favor{
+    color:#16a9d6;
+}
+
+.new_release{
+    color:#16a9d6;
+    font-size: 18px;
+}
+
+.new_release_strong{
+    color:#16a9d6;
+    font-size: 24px;
+}
+
+.Menu_block_soda{
+    max-width: 98%;
+    column-count: 2;
+    margin: 2%;
+    justify-content: center;
+}
+
+@media (min-width: 5000px) and (max-width: 6000px){
+
+}
